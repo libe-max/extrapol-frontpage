@@ -1,15 +1,15 @@
 module.exports = {
   meta: {
     author: '',
-    title: '',
-    url: '',
+    title: 'Extrapol',
+    url: 'https://www.liberation.fr/apps/extrapol-2019',
     description: '',
     image: '',
-    xiti_id: 'test'
+    xiti_id: 'extrapol-frontpage'
   },
   tracking: {
-    active: false,
-    format: 'libe-apps-template',
-    article: 'libe-apps-template'
+    active: true,
+    format: 'extrapol-frontpage',
+    article: 'extrapol-frontpage'
   }
 }
