@@ -5,16 +5,13 @@ import LoadAndPing from 'libe-components/lib/tracking/LoadAndPing'
 import * as serviceWorker from './serviceWorker'
 import config from './config'
 import 'whatwg-fetch'
-
-const App = props => <div>
-  Replace this component with your app
-</div>
+import Extrapol from './Extrapol'
 
 class AppWrapper extends Component {
   render () {
     const { props } = this
-    const { meta, tracking } = props
-    const { title, url, description, author, image, statics_url, stylesheet } = meta
+    const { meta, tracking, statics_url, stylesheet } = props
+    const { title, url, description, author, image } = meta
     const stylesheetUrl = `${statics_url}/styles/apps/${stylesheet}`
     return <div id='libe-labo-app-wrapper'>
       <Helmet>
@@ -32,7 +29,7 @@ class AppWrapper extends Component {
         <meta name='twitter:image' content={image} />
         <link rel='stylesheet' href={stylesheetUrl} />
       </Helmet>
-      <App {...props} />{
+      <Extrapol {...props} />{
       tracking.active
         ? <LoadAndPing
           format={tracking.format}

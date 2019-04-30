@@ -16,7 +16,8 @@ module.exports = {
     ? 'https://www.liberation.fr/apps/statics'
     : 'http://localhost:3003',
   api_url: process.env.NODE_ENV === 'production'
-    ? 'http://localhost:3004/api'
-    : 'https://libe-labo.site/api',
-  stylesheet: 'extrapol.css' // The name of the css file hosted at ${statics_url}/styles/apps/
+    ? 'https://libe-labo.site/api'
+    : 'http://localhost:3004/api',
+  stylesheet: 'extrapol.css', // The name of the css file hosted at ${statics_url}/styles/apps/
+  spreadsheet: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTaKbvOSeCmlVZBiLQX8m4_tVQ1S4sZHjFovW91oW9KhQjLQI45gHgmjbRIiaS8rU0UcBHqLvfgWCFl/pub?gid=179824196&single=true&output=tsv'
 }
