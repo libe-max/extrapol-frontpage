@@ -2,9 +2,12 @@
   "name": "libe-apps-template",
   "version": "0.2.0",
   "private": true,
+  "homepage": "https://www.liberation.fr/apps/extrapol-2019",
   "dependencies": {
     "libe-components": "^0.5.5",
+    "moment": "^2.24.0",
     "react": "^16.8.6",
+    "react-dailymotion": "^0.4.0",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
     "react-scripts": "^3.0.0",
