@@ -2,7 +2,7 @@
 
 ## Modifier le CSS
 
-À priori pas besoin, mais si jamais vous en aviez envie :
+À priori pas besoin, mais si jamais vous en avez vraiment envie :
 FTP > static > styles > apps > extrapol.css
 
 **Important** Interdiction formelle 👺 de toucher aux autres fichiers de ce dossier
