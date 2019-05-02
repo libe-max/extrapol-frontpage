@@ -11,7 +11,7 @@ FTP > static > styles > apps > extrapol.css
 
 Drive Libé Labo > Extrapol – Frontpage
 
-**Important** Ne pas toucher à l'onglet `_output`
+**Important** Ne pas toucher à l'onglet `_output`  
 **Important** Ne pas glisser les lignes et colonnes pour les réorganiser
 
 ### Onglet "Page"
