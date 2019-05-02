@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+import { Parser } from 'html-to-react'
 import moment from 'moment'
 import 'moment/locale/fr'
+
 import PageTitle from 'libe-components/lib/text-levels/PageTitle'
 import Hat from 'libe-components/lib/text-levels/Hat'
 import BlockTitle from 'libe-components/lib/text-levels/BlockTitle'
@@ -23,6 +25,7 @@ export default class Extrapol extends Component {
   constructor () {
     super()
     this.c = 'extrapol'
+    this.h2r = new Parser()
     this.state = {
       loading: true,
       error: null,
@@ -81,7 +84,7 @@ export default class Extrapol extends Component {
    *
    * * * * * * * * * * * * * * * * * */
   render () {
-    const { c, state } = this
+    const { c, state, h2r } = this
 
     const classes = [c]
 
@@ -110,7 +113,7 @@ export default class Extrapol extends Component {
           <PageTitle>{page.page_title}</PageTitle>
         </div>
         <div className={`${c}__hat`}>
-          <Paragraph>{page.page_intro}</Paragraph>
+          <Paragraph>{h2r.parse(page.page_intro)}</Paragraph>
         </div>
       </div>
       <div className={`${c}__links`}>
