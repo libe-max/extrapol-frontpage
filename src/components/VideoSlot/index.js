@@ -33,7 +33,8 @@ export default class VideoSlot extends Component {
       background: '#212121'
     }
     const imgPreviewStyle = {
-      backgroundImage: `url(${props.image})`
+      backgroundImage: `url(${props.image})`,
+      cursor: 'pointer'
     }
     return <div onClick={handleClick} className={classes.join(' ')}>{
       state.active
