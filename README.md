@@ -5,14 +5,14 @@
 À priori pas besoin, mais si jamais vous en aviez envie :
 FTP > static > styles > apps > extrapol.css
 
-*Important* Interdiction formelle 👺 de toucher aux autres fichiers de ce dossier
+**Important** Interdiction formelle 👺 de toucher aux autres fichiers de ce dossier
 
 ## Remplir les données
 
 Drive Libé Labo > Extrapol – Frontpage
 
-*Important* Ne pas toucher à l'onglet `_output`
-*Important* Ne pas glisser les lignes et colonnes pour les réorganiser
+**Important** Ne pas toucher à l'onglet `_output`
+**Important** Ne pas glisser les lignes et colonnes pour les réorganiser
 
 ### Onglet "Page"
 - Le titre de la page
