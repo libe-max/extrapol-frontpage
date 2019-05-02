@@ -131,7 +131,7 @@ export default class Extrapol extends Component {
           const currentSubject = subjects.find(sub => sub.date === vid.date)
           const dayLabel = (i === 0 || vid.date !== videos[i - 1].date)
             ? <div key={vid.date} className={`${c}__day-label`}>
-              <Slug>{moment(vid.date, 'DD/MM/YYYY').format('Do MMMM')}</Slug>
+              <Slug>{moment(vid.date, 'DD/MM/YYYY').format('dddd Do MMMM')}</Slug>
               <BlockTitle>{currentSubject ? currentSubject.subject : 'Sans sujet'}</BlockTitle>
             </div>
             : ''
