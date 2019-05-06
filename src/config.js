@@ -3,8 +3,8 @@ module.exports = {
     author: '',
     title: 'Extrapol',
     url: 'https://www.liberation.fr/apps/extrapol-2019',
-    description: '',
-    image: '',
+    description: 'Chaque jour, de nouveaux Extras étaient à découvrir sur ExtraPol. Vous en avez raté un ? Retrouvez tous les anciens Extras publiés ici.',
+    image: 'https://www.liberation.fr/apps/extrapol-2019/social.jpg',
     xiti_id: 'extrapol-frontpage'
   },
   tracking: {
